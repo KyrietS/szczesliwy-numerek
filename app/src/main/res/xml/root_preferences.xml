@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/general_category"
+        android:key="@string/general_category_key">
+
+        <ListPreference
+            android:defaultValue="student"
+            android:entries="@array/user_type_entries"
+            android:entryValues="@array/user_type_values"
+            android:key="@string/user_type_key"
+            android:title="@string/user_type"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/notify_category"
+        android:key="@string/notify_category_key">
+
+        <SwitchPreferenceCompat
+            android:key="@string/notify_key"
+            android:title="@string/notify_student" />
+
+        <eu.legnica.iilo.numerki.ChooseNumbersPreference
+            android:entries="@array/all_numbers"
+            android:entryValues="@array/all_numbers"
+            android:key="@string/notify_numbers_key"
+            android:summary="@string/choose_numbers_summary"
+            android:title="Wybierz numerki"
+            android:dependency="@string/notify_key"/>
+
+        <eu.legnica.iilo.numerki.TimePreference
+            android:key="@string/check_time_key"
+            android:title="@string/check_time_title"
+            android:summary="@string/check_time_summary"
+            android:defaultValue="1205"
+            android:dependency="@string/notify_key" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
