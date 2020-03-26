@@ -1,0 +1,67 @@
+<resources tools:locale="pl" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Szczęśliwy Numerek</string>
+    <string name="no_number">\?</string>
+    <string name="date">Data:</string>
+    <string name="no_date">---</string>
+    <string name="weekend">(weekend)</string>
+    <string name="school_name">II Liceum Ogólnokształcące\nim. Stanisława Wyspiańskiego w Legnicy</string>
+    <string name="school_logo">Logo szkoły</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="notify_channel_name">Szczęśliwe numerki</string>
+    <string name="notify_channel_description">Powiadomienie o szczęśliwym numerku</string>
+    <string name="ok">OK</string>
+
+    <!-- Settings -->
+    <string name="general_category">Ogólne</string>
+    <string name="user_type">Kto używa tej aplikacji?</string>
+
+    <string name="notify_category">Powiadomienia</string>
+    <string name="notify_student">Powiadomienie o numerku</string>
+    <string name="notify_teacher">Powiadomienia o numerkach</string>
+
+    <string name="check_time_title">Godzina sprawdzenia</string>
+    <string name="check_time_summary">Numerek będzie sprawdzany każdego dnia o godzinie</string>
+
+    <string name="choose_numbers_title">Wybierz numerki</string>
+    <string name="choose_numbers_summary">Otrzymasz powiadomienie, gdy zostanie wylosowany jeden z numerków:</string>
+    <string name="no_numbers_chosen">(nie wybrano numerków)</string>
+
+    <!-- Preference keys -->
+    <string name="general_category_key" translatable="false">general_category_key</string>
+    <string name="user_type_key" translatable="false">user_type_key</string>
+    <string name="notify_category_key" translatable="false">notify_category_key</string>
+    <string name="notify_key" translatable="false">notify_key</string>
+    <string name="notify_numbers_key" translatable="false">notify_numbers_key</string>
+    <string name="check_time_key" translatable="false">check_time_key</string>
+
+    <!-- Buttons -->
+    <string name="set">Ustaw</string>
+    <string name="cancel">Anuluj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="app_settings">Ustawienia aplikacji</string>
+    <string name="help">Pomoc</string>
+    <string name="about">Informacje</string>
+
+    <!-- Notifications -->
+    <string name="your_number_has_drawn">Wylosowano Twój numerek!</string>
+    <string name="numbers_have_drawn">Wylosowano numerki!</string>
+    <string name="notification_summary">%1$d i %2$d to numerki na dzień %3$s</string>
+
+    <!-- Help -->
+    <string name="help_title">Pomoc i wskazówki</string>
+    <string name="help_begin">Aplikacja <b>Szczęśliwe Numerki</b> pobiera i wyświetla aktualne <i>szczęśliwe numerki</i> wylosowane przez algorytm. Dodatkowe opcje są dostępne w <b>ustawieniach</b>.</string>
+    <string name="help_student"><big><b>Uczeń</b></big>\njako uczeń można wybrać swój numerek, aby aplikacja wysłała powiadomienie, gdy dany numerek zostanie wylosowany.</string>
+    <string name="help_teacher"><big><b>Nauczyciel</b></big>\npo włączeniu powiadomień w trybie nauczyciela aplikacja będzie każdego dnia wysyłać powiadomienie o wylosowanych numerkach (wszystkich).</string>
+    <string name="help_warning"><big><b>Informacje dodatkowe</b></big>\nNowe <i>szczęśliwe numerki</i> są losowane w każdy dzień tygodnia (bez weekendów) o godzinie 20:00, dlatego nie ma sensu ustawiać <i>godziny sprawdzenia</i> przed 20:00.\n\nAby odświeżyć ekran z numerkami przeciągnij palcem z góry na dół.</string>
+
+    <!-- About -->
+    <string name="about_title">Informacje o aplikacji</string>
+    <string name="about_app_name"><big><b>Szczęśliwe Numerki</b></big></string>
+    <string name="about_open_source">Aplikacja o otwartym kodzie źródłowym dostępnym na <a href="https://github.com/kyriets/szczesliwe-numerki">Github</a>.</string>
+    <string name="about_version">Wersja: %1$s</string>
+    <string name="about_author">2020 © Sebastian Fojcik</string>
+
+    <!-- Errors & warnings -->
+    <string name="cannot_fetch_numbers">Nie można pobrać numerków</string>
+
+</resources>
