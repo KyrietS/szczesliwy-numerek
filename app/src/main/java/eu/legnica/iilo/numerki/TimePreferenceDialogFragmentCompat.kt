@@ -51,7 +51,7 @@ class TimePreferenceDialogFragmentCompat : PreferenceDialogFragmentCompat() {
             @Suppress("DEPRECATION")
             val hours = if(Build.VERSION.SDK_INT >= 23) timePicker.hour else timePicker.currentHour
             @Suppress("DEPRECATION")
-            val minutes = if(Build.VERSION.SDK_INT >= 23) timePicker.hour else timePicker.currentHour
+            val minutes = if(Build.VERSION.SDK_INT >= 23) timePicker.minute else timePicker.currentMinute
 
             val minutesAfterMidnight = hours * 60 + minutes
             // Get the related Preference and save the value
